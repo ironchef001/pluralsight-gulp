@@ -23,6 +23,7 @@ $ npm start
 ```
 
 # npm commands
+```bash
 cd pluralsight-gulp
 npm install
 npm install bower -g
@@ -40,3 +41,4 @@ npm install --save-dev gulp-less gulp-autoprefixer
 
 // pull in delete file util
 npm install --save-dev del
+```
