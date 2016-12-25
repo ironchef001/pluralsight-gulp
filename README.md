@@ -22,3 +22,20 @@ $ bower install
 $ npm start
 ```
 
+# npm commands
+cd pluralsight-gulp
+npm install
+npm install bower -g
+npm install -save bower
+npm install --save-dev gulp
+npm install --save-dev gulp-jshint gulp-jscs
+npm install --save-dev jshint
+npm install --save-dev jshint-stylish
+npm install --save-dev gulp-util
+npm install --save-dev gulp-jshint gulp-jscs
+npm install --save-dev yargs gulp-load-plugins gulp-if gulp-print jshint-stylish gulp-util
+
+//less -> css
+npm install --save-dev gulp-less gulp-autoprefixer
+
+
