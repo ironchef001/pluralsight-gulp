@@ -38,4 +38,5 @@ npm install --save-dev yargs gulp-load-plugins gulp-if gulp-print jshint-stylish
 //less -> css
 npm install --save-dev gulp-less gulp-autoprefixer
 
-
+// pull in delete file util
+npm install --save-dev del
