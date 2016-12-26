@@ -41,4 +41,7 @@ npm install --save-dev gulp-less gulp-autoprefixer
 
 // pull in delete file util
 npm install --save-dev del
+
+// use gulp-plumber to display good-format error
+npm install --save-dev gulp-plumber
 ```
