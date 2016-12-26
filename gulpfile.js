@@ -23,6 +23,7 @@ gulp.task('styles', ['clean-styles'], function(){
     return gulp
         .src(config.less)
         .pipe($.less())
+        .on('error', errorLogger)
         .pipe($.autoprefixer({browsers: ['last 2 version', '> 5%']}))
         .pipe(gulp.dest(config.temp));
 });
@@ -38,6 +39,12 @@ gulp.task('less-watcher', function(){
 });
 
 /////////////////////////////
+function errorLogger(error){
+    log('*** Start of Error ***');
+    log(error);
+    log('*** End of Error ***');
+}
+
 function clean(path) {
     log('Cleaning: ' + $.util.colors.blue(path));
     //#following is del v1.1 implementation to use call back
