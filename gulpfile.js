@@ -18,7 +18,6 @@ gulp.task('vet', function () {
 });
 
 gulp.task('styles', ['clean-styles'], function(){
-    console.log('run styles...');
     log('Compling Less --> CSS');
 
     return gulp
